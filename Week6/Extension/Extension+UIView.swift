@@ -19,3 +19,5 @@ extension UIView {
         self.layer.borderWidth = borderWidth
     }
 }
+
+extension UIView: Identifiable { }

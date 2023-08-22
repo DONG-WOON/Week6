@@ -17,6 +17,7 @@
 		725F8DEF2A94464E009462D0 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DEE2A94464E009462D0 /* SnapViewController.swift */; };
 		725F8DF22A945CBD009462D0 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DF12A945CBD009462D0 /* TextViewController.swift */; };
 		725F8DF82A947925009462D0 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DF72A947925009462D0 /* LocationViewController.swift */; };
+		725F8E0F2A94A5F6009462D0 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8E0E2A94A5F6009462D0 /* Extension+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		725F8DEE2A94464E009462D0 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		725F8DF12A945CBD009462D0 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		725F8DF72A947925009462D0 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		725F8E0E2A94A5F6009462D0 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				725F8DDB2A94391B009462D0 /* ViewController.swift */,
 				725F8DF72A947925009462D0 /* LocationViewController.swift */,
 				725F8DF02A944653009462D0 /* Test */,
+				725F8E0D2A94A5E9009462D0 /* Extension */,
 				725F8DDD2A94391B009462D0 /* Main.storyboard */,
 				725F8DE02A94391C009462D0 /* Assets.xcassets */,
 				725F8DE22A94391C009462D0 /* LaunchScreen.storyboard */,
@@ -84,6 +87,14 @@
 				725F8DF12A945CBD009462D0 /* TextViewController.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		725F8E0D2A94A5E9009462D0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				725F8E0E2A94A5F6009462D0 /* Extension+UIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			files = (
 				725F8DF22A945CBD009462D0 /* TextViewController.swift in Sources */,
 				725F8DEF2A94464E009462D0 /* SnapViewController.swift in Sources */,
+				725F8E0F2A94A5F6009462D0 /* Extension+UIView.swift in Sources */,
 				725F8DDC2A94391B009462D0 /* ViewController.swift in Sources */,
 				725F8DF82A947925009462D0 /* LocationViewController.swift in Sources */,
 				725F8DD82A94391B009462D0 /* AppDelegate.swift in Sources */,

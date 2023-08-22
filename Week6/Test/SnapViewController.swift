@@ -55,10 +55,3 @@ class SnapViewController: UIViewController {
         }
     }
 }
-
-extension UIView {
-    convenience init(_ backgroundColor: UIColor) {
-        self.init()
-        self.backgroundColor = backgroundColor
-    }
-}

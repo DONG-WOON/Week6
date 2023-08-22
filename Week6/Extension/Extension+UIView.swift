@@ -12,4 +12,10 @@ extension UIView {
         self.init()
         self.backgroundColor = backgroundColor
     }
+    
+    func rounded(cornerRadius: CGFloat, borderColor: UIColor = .black, borderWidth: CGFloat = 1) {
+        self.layer.cornerRadius = cornerRadius
+        self.layer.borderColor = borderColor.cgColor
+        self.layer.borderWidth = borderWidth
+    }
 }

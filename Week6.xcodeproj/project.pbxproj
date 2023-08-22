@@ -18,6 +18,8 @@
 		725F8DF22A945CBD009462D0 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DF12A945CBD009462D0 /* TextViewController.swift */; };
 		725F8DF82A947925009462D0 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DF72A947925009462D0 /* LocationViewController.swift */; };
 		725F8E0F2A94A5F6009462D0 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8E0E2A94A5F6009462D0 /* Extension+UIView.swift */; };
+		725F8E122A94A6ED009462D0 /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8E112A94A6ED009462D0 /* Example1ViewController.swift */; };
+		725F8E152A94A891009462D0 /* ConfigureViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8E142A94A891009462D0 /* ConfigureViewProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		725F8DF12A945CBD009462D0 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		725F8DF72A947925009462D0 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		725F8E0E2A94A5F6009462D0 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		725F8E112A94A6ED009462D0 /* Example1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
+		725F8E142A94A891009462D0 /* ConfigureViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureViewProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				725F8DD92A94391B009462D0 /* SceneDelegate.swift */,
 				725F8DDB2A94391B009462D0 /* ViewController.swift */,
 				725F8DF72A947925009462D0 /* LocationViewController.swift */,
+				725F8E132A94A888009462D0 /* Protocol */,
+				725F8E102A94A6D9009462D0 /* Example */,
 				725F8DF02A944653009462D0 /* Test */,
 				725F8E0D2A94A5E9009462D0 /* Extension */,
 				725F8DDD2A94391B009462D0 /* Main.storyboard */,
@@ -95,6 +101,22 @@
 				725F8E0E2A94A5F6009462D0 /* Extension+UIView.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		725F8E102A94A6D9009462D0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				725F8E112A94A6ED009462D0 /* Example1ViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		725F8E132A94A888009462D0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				725F8E142A94A891009462D0 /* ConfigureViewProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,10 +199,12 @@
 				725F8DF22A945CBD009462D0 /* TextViewController.swift in Sources */,
 				725F8DEF2A94464E009462D0 /* SnapViewController.swift in Sources */,
 				725F8E0F2A94A5F6009462D0 /* Extension+UIView.swift in Sources */,
+				725F8E122A94A6ED009462D0 /* Example1ViewController.swift in Sources */,
 				725F8DDC2A94391B009462D0 /* ViewController.swift in Sources */,
 				725F8DF82A947925009462D0 /* LocationViewController.swift in Sources */,
 				725F8DD82A94391B009462D0 /* AppDelegate.swift in Sources */,
 				725F8DDA2A94391B009462D0 /* SceneDelegate.swift in Sources */,
+				725F8E152A94A891009462D0 /* ConfigureViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		725F8DD82A94391B009462D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DD72A94391B009462D0 /* AppDelegate.swift */; };
 		725F8DDA2A94391B009462D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DD92A94391B009462D0 /* SceneDelegate.swift */; };
-		725F8DDC2A94391B009462D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DDB2A94391B009462D0 /* ViewController.swift */; };
+		725F8DDC2A94391B009462D0 /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8DDB2A94391B009462D0 /* ConstraintsViewController.swift */; };
 		725F8DDF2A94391B009462D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725F8DDD2A94391B009462D0 /* Main.storyboard */; };
 		725F8DE12A94391C009462D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725F8DE02A94391C009462D0 /* Assets.xcassets */; };
 		725F8DE42A94391C009462D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725F8DE22A94391C009462D0 /* LaunchScreen.storyboard */; };
@@ -41,7 +41,7 @@
 		725F8DD42A94391B009462D0 /* Week6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725F8DD72A94391B009462D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		725F8DD92A94391B009462D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		725F8DDB2A94391B009462D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		725F8DDB2A94391B009462D0 /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
 		725F8DDE2A94391B009462D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		725F8DE02A94391C009462D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725F8DE32A94391C009462D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,11 +102,10 @@
 			children = (
 				725F8DD72A94391B009462D0 /* AppDelegate.swift */,
 				725F8DD92A94391B009462D0 /* SceneDelegate.swift */,
-				725F8DDB2A94391B009462D0 /* ViewController.swift */,
-				725F8DF72A947925009462D0 /* LocationViewController.swift */,
 				725F8E2F2A950DDF009462D0 /* APIKey.swift */,
-				725F8E182A94AF00009462D0 /* Model */,
 				725F8E132A94A888009462D0 /* Protocol */,
+				725F8E182A94AF00009462D0 /* Model */,
+				725F8E422A95EC3A009462D0 /* MyTheater */,
 				725F8E102A94A6D9009462D0 /* Example */,
 				725F8E1C2A94C251009462D0 /* UIComponents */,
 				725F8DF02A944653009462D0 /* Test */,
@@ -122,6 +121,8 @@
 		725F8DF02A944653009462D0 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				725F8DF72A947925009462D0 /* LocationViewController.swift */,
+				725F8DDB2A94391B009462D0 /* ConstraintsViewController.swift */,
 				725F8DEE2A94464E009462D0 /* SnapViewController.swift */,
 				725F8DF12A945CBD009462D0 /* TextViewController.swift */,
 			);
@@ -192,6 +193,13 @@
 				725F8E252A94DD84009462D0 /* WeatherTableViewCell.swift */,
 			);
 			path = Example3;
+			sourceTree = "<group>";
+		};
+		725F8E422A95EC3A009462D0 /* MyTheater */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyTheater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +295,7 @@
 				725F8E242A94DD6F009462D0 /* HeaderWeatherView.swift in Sources */,
 				725F8E0F2A94A5F6009462D0 /* Extension+UIView.swift in Sources */,
 				725F8E122A94A6ED009462D0 /* Example1ViewController.swift in Sources */,
-				725F8DDC2A94391B009462D0 /* ViewController.swift in Sources */,
+				725F8DDC2A94391B009462D0 /* ConstraintsViewController.swift in Sources */,
 				725F8DF82A947925009462D0 /* LocationViewController.swift in Sources */,
 				725F8DD82A94391B009462D0 /* AppDelegate.swift in Sources */,
 				725F8E392A951064009462D0 /* Example3ViewController+CLLocation.swift in Sources */,

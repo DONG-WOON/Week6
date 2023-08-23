@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
 
-        let vc = Example3ViewController()
+        let vc = TheaterViewController()
         self.window?.rootViewController = vc
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()

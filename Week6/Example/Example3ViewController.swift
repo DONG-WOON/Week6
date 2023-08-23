@@ -41,20 +41,20 @@ final class Example3ViewController: UIViewController {
     }
     
     func callWeatherRequest(at latitude: String, longitude: String) {
-        let url = "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=\(APIKey.weatherKey)&lang=kr"
-
-        AF.request(url).validate().responseDecodable(of: WeatherData.self) { response in
-            switch response.result {
-            case .success(let weatherData):
-                let icon = weatherData.weather[0].icon
-                let humidity = weatherData.main.humidity //%
-                let temp = weatherData.main.temp // - 273.15
-                let wind = weatherData.wind.speed // m/s
-
-                self.weatherData = SimpleWeather(temp: temp, humidity: humidity, icon: icon, wind: wind)
-            case.failure(let error):
-                print(error)
-            }
-        }
+//        let url = "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=\(APIKey.weatherKey)&lang=kr"
+//
+//        AF.request(url).validate().responseDecodable(of: WeatherData.self) { response in
+//            switch response.result {
+//            case .success(let weatherData):
+//                let icon = weatherData.weather[0].icon
+//                let humidity = weatherData.main.humidity //%
+//                let temp = weatherData.main.temp // - 273.15
+//                let wind = weatherData.wind.speed // m/s
+//
+//                self.weatherData = SimpleWeather(temp: temp, humidity: humidity, icon: icon, wind: wind)
+//            case.failure(let error):
+//                print(error)
+//            }
+//        }
     }
 }

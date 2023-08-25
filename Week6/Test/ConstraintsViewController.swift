@@ -26,7 +26,8 @@ class ConstraintsViewController: UIViewController {
         passwordTextField.translatesAutoresizingMaskIntoConstraints = false
         button.translatesAutoresizingMaskIntoConstraints = false
         
-        signButton.addTarget(self, action: #selector(goToSnapVC), for: .touchUpInside)
+        signButton.addTarget(self, action: #selector(goToGenericVC), for: .touchUpInside)
+        button.addTarget(self, action: #selector(goToTextVC), for: .touchUpInside)
     
         
         // 1. frame
@@ -58,14 +59,30 @@ class ConstraintsViewController: UIViewController {
         setLayoutAnchor()
     }
     
+//    @objc
+//    func goToSnapVC() {
+//        let vc = SnapViewController()
+//        present(vc, animated: true)
+//    }
+    
     @objc
-    func goToSnapVC() {
-        let vc = SnapViewController()
+    func goToGenericVC() {
+        let vc = GenericViewController()
+        transition(vc, style: .present)
+    }
+    
+    @objc
+    func goToTextVC() {
+        let vc = TextViewController()
         present(vc, animated: true)
     }
 
     func setLayoutAnchor() {
         view.addSubview(signButton)
+        
+        button.snp.makeConstraints { make in
+            make.height.width.equalTo(20)
+        }
         
         signButton.translatesAutoresizingMaskIntoConstraints = false
         signButton.backgroundColor = .orange

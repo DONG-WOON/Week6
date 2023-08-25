@@ -36,6 +36,7 @@
 		725F8E3C2A951B77009462D0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 725F8E3B2A951B77009462D0 /* Kingfisher */; };
 		725F8E442A95EE0A009462D0 /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8E432A95EE0A009462D0 /* TheaterViewController.swift */; };
 		725F8E462A95EE17009462D0 /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F8E452A95EE17009462D0 /* Theater.swift */; };
+		72E236A72A984C1E0027B7CD /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E236A62A984C1E0027B7CD /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		725F8E382A951064009462D0 /* Example3ViewController+CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example3ViewController+CLLocation.swift"; sourceTree = "<group>"; };
 		725F8E432A95EE0A009462D0 /* TheaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterViewController.swift; sourceTree = "<group>"; };
 		725F8E452A95EE17009462D0 /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
+		72E236A62A984C1E0027B7CD /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				725F8DD72A94391B009462D0 /* AppDelegate.swift */,
 				725F8DD92A94391B009462D0 /* SceneDelegate.swift */,
+				72E236A52A984C000027B7CD /* Onboarding */,
 				725F8E132A94A888009462D0 /* Protocol */,
 				725F8E182A94AF00009462D0 /* Model */,
 				725F8E422A95EC3A009462D0 /* MyTheater */,
@@ -203,6 +206,14 @@
 				725F8E432A95EE0A009462D0 /* TheaterViewController.swift */,
 			);
 			path = MyTheater;
+			sourceTree = "<group>";
+		};
+		72E236A52A984C000027B7CD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				72E236A62A984C1E0027B7CD /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +316,7 @@
 				725F8E152A94A891009462D0 /* ConfigureViewProtocol.swift in Sources */,
 				725F8E282A94DD92009462D0 /* Identifiable.swift in Sources */,
 				725F8E442A95EE0A009462D0 /* TheaterViewController.swift in Sources */,
+				72E236A72A984C1E0027B7CD /* OnboardingViewController.swift in Sources */,
 				725F8E202A94DAA8009462D0 /* Example3ViewController.swift in Sources */,
 				725F8E462A95EE17009462D0 /* Theater.swift in Sources */,
 				725F8E1A2A94AF08009462D0 /* User.swift in Sources */,
